@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scs2682.finalproject.ui.home.StickyNote
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/back"
+            android:background="@drawable/back_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <Button
+            android:id="@+id/edit"
+            android:background="@drawable/edit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_toEndOf="@id/back"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/noteTitleView"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ScrollView
+            android:id="@+id/scrollDescription"
+            android:layout_below="@id/noteTitleView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <TextView
+                android:id="@+id/descriptionView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp" />
+        </ScrollView>
+    </RelativeLayout>
+</scs2682.finalproject.ui.home.StickyNote>

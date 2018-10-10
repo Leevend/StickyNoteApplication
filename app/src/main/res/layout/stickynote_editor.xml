@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scs2682.finalproject.ui.home.StickyNoteEditor
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+    <RelativeLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/cancel"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/back_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/clear"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/clear"
+            android:layout_toEndOf="@id/cancel"
+            android:layout_width="60dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/noteTitleEdit"
+            android:textSize="22sp"
+            android:hint="@string/note_id"
+            android:layout_below="@id/cancel"
+            android:inputType="text"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/descriptionEdit"
+            android:layout_below="@id/noteTitleEdit"
+            android:textSize="22sp"
+            android:hint="@string/description"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/update"
+            android:text="@string/update"
+            android:textSize="20sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/descriptionEdit"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+</scs2682.finalproject.ui.home.StickyNoteEditor>

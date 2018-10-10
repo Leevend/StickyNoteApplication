@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/note_fragment3"
+    android:orientation="vertical"
+    android:layout_marginTop="200dp"
+    android:layout_marginStart="40dp"
+    android:layout_width="130dp"
+    android:layout_height="100dp"
+    android:background="#33ccff">
+    <TextView
+        android:id="@+id/note_title_frag3"
+        android:text="@string/note_3"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/excerpt_frag3"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

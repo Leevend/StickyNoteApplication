@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StickyNote v0.1</string>
+    <string name="add">Add</string>
+    <string name="note_id">Note Id</string>
+    <string name="note_title">Note Title</string>
+    <string name="description">Description</string>
+    <string name="main">Main</string>
+    <string name="note_viewer">Sticky Note</string>
+    <string name="note_editor">Note Editor</string>
+    <string name="edit">Edit</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="web">Web</string>
+    <string name="note_id_and_title_cannot_be_empty">Note id and title cannot be empty</string>
+    <string name="open_website">Open Website</string>
+    <string name="note_1">Note 1</string>
+    <string name="note_2">Note 2</string>
+    <string name="note_3">Note 3</string>
+    <string name="note_4">Note 4</string>
+    <string name="fragment_local_data">Fragment Local Data</string>
+
+</resources>

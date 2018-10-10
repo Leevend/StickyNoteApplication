@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/note_fragment4"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:layout_marginTop="50dp"
+    android:layout_marginStart="430dp"
+    android:layout_width="130dp"
+    android:layout_height="100dp"
+    android:background="#cdc3f5">
+    <TextView
+        android:id="@+id/note_id_frag4"
+        android:text="@string/note_4"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/note_title_frag4"
+        android:text=""
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/excerpt_frag4"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
